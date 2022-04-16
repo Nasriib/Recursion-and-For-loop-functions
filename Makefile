@@ -16,10 +16,10 @@ install:
 
 # define targets to compile the source code
 #
-myprog.o: myprog.cc hw9.h Makefile
+myprog.o: myprog.cc exp.h Makefile
         g++ -g -c myprog.cc -o myprog.o
 
-myfuncts_00.o: myfuncts_00.cc hw9.h Makefile
+myfuncts_00.o: myfuncts_00.cc exp.h Makefile
         g++ -g -c myfuncts_00.cc -o myfuncts_00.o
 
 # define a target to clean the directory
